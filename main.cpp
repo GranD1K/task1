@@ -14,8 +14,8 @@ public:
 class ChildClass : public Base
 {
     public :
-    B() { cout << "Construct Child object\n";}
-    ~B() { cout << "Destruct Child object\n";}
+    ChildClass() { cout << "Construct Child object\n";}
+    ~ChildClass() { cout << "Destruct Child object\n";}
 };
 
 int main(int argc, char *argv[])
